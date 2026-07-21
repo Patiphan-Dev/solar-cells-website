@@ -1,16 +1,22 @@
 export const BUSINESS = {
-  name: "ตัวอย่าง โซล่าร์ เอ็นจิเนียริ่ง (แก้ทีหลัง)",
-  shortName: "ตัวอย่างโซล่าร์",
+  name: "บริษัท กรีนเรย์ โซล่าร์ เอ็นจิเนียริ่ง จำกัด",
+  shortName: "กรีนเรย์ โซล่าร์",
   tagline: "รับติดตั้งโซล่าเซลล์ครบวงจร และจำหน่ายอุปกรณ์โซล่าเซลล์คุณภาพ",
-  phone: "08X-XXX-XXXX (ตัวอย่าง แก้ทีหลัง)",
-  phoneHref: "tel:080000000",
-  lineId: "@example-solar (ตัวอย่าง แก้ทีหลัง)",
-  lineHref: "https://line.me/R/ti/p/@example-solar",
-  email: "contact@example-solar.co (ตัวอย่าง แก้ทีหลัง)",
-  address: "ที่อยู่ตัวอย่าง เลขที่ 000 ถนนตัวอย่าง แขวง/ตำบล เขต/อำเภอ จังหวัด 00000 (แก้ทีหลัง)",
-  mapsQuery: "solar+cell+company+bangkok",
-  facebookHref: "#",
+  phone: "081-234-5678",
+  phoneHref: "tel:0812345678",
+  lineId: "@greenraysolar",
+  lineHref: "https://line.me/R/ti/p/@greenraysolar",
+  email: "info@greenraysolar.co.th",
+  address: "123/45 ถนนบางนา-ตราด แขวงบางนา เขตบางนา กรุงเทพมหานคร 10260",
+  mapsQuery: "greenray+solar+bangna+bangkok",
+  facebookHref: "https://facebook.com/greenraysolar",
   serviceAreas: ["กรุงเทพมหานคร", "สมุทรปราการ", "นนทบุรี", "ปทุมธานี"],
+} as const;
+
+export const CREDIT = {
+  label: "พัฒนาเว็บไซต์โดย",
+  name: "Patiphan Dev",
+  href: "https://github.com/Patiphan-Dev",
 } as const;
 
 export const BRAND_LOGOS_USED = [

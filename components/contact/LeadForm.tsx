@@ -15,7 +15,7 @@ export default function LeadForm() {
     const body = encodeURIComponent(
       `ชื่อ: ${name}\nเบอร์โทร: ${phone}\nรายละเอียด: ${detail}`
     );
-    window.location.href = `mailto:${BUSINESS.email.split(" ")[0]}?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:${BUSINESS.email}?subject=${subject}&body=${body}`;
     setSent(true);
   }
 

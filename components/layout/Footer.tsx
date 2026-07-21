@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Container from "@/components/ui/Container";
 import Logo from "./Logo";
-import { BUSINESS, NAV_LINKS } from "@/lib/constants";
+import { BUSINESS, NAV_LINKS, CREDIT } from "@/lib/constants";
 
 export default function Footer() {
   return (
@@ -46,9 +46,15 @@ export default function Footer() {
       </Container>
 
       <div className="border-t border-white/10 py-6">
-        <Container>
+        <Container className="flex flex-wrap items-center justify-between gap-2">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} {BUSINESS.name} — เว็บไซต์ตัวอย่าง ข้อมูลติดต่อและราคาเป็นตัวอย่างเท่านั้น
+            © {new Date().getFullYear()} {BUSINESS.name}
+          </p>
+          <p className="text-xs text-slate-500">
+            {CREDIT.label}{" "}
+            <a href={CREDIT.href} target="_blank" rel="noopener noreferrer" className="font-medium text-slate-400 hover:text-amber-500">
+              {CREDIT.name}
+            </a>
           </p>
         </Container>
       </div>

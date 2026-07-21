@@ -24,7 +24,7 @@ export default function ContactPage() {
           <div className="space-y-6">
             <ContactCard label="โทรศัพท์" value={BUSINESS.phone} href={BUSINESS.phoneHref} cta="โทรเลย" />
             <ContactCard label="Line" value={BUSINESS.lineId} href={BUSINESS.lineHref} cta="แชท Line" external />
-            <ContactCard label="อีเมล" value={BUSINESS.email} href={`mailto:${BUSINESS.email.split(" ")[0]}`} cta="ส่งอีเมล" />
+            <ContactCard label="อีเมล" value={BUSINESS.email} href={`mailto:${BUSINESS.email}`} cta="ส่งอีเมล" />
             <div className="rounded-lg border border-slate-200 p-5">
               <p className="text-sm font-medium text-navy-900">ที่อยู่</p>
               <p className="mt-1 text-sm text-slate-600">{BUSINESS.address}</p>

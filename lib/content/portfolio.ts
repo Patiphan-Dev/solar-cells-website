@@ -5,7 +5,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: "pf1",
     title: "บ้านเดี่ยว 2 ชั้น ระบบ On-Grid",
     type: "residential",
-    location: "สมุทรปราการ (ตัวอย่าง)",
+    location: "อ.บางพลี จ.สมุทรปราการ",
     systemKw: 5,
     systemType: "on-grid",
     savingsPerMonth: "ประมาณ 3,000 บาท/เดือน",
@@ -15,7 +15,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: "pf2",
     title: "โรงงานอุตสาหกรรมขนาดกลาง",
     type: "factory",
-    location: "ชลบุรี (ตัวอย่าง)",
+    location: "อ.ศรีราชา จ.ชลบุรี",
     systemKw: 100,
     systemType: "on-grid",
     savingsPerMonth: "ประมาณ 60,000 บาท/เดือน",
@@ -25,7 +25,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: "pf3",
     title: "ออฟฟิศให้เช่า ระบบ Hybrid",
     type: "office",
-    location: "กรุงเทพมหานคร (ตัวอย่าง)",
+    location: "เขตวัฒนา กรุงเทพมหานคร",
     systemKw: 20,
     systemType: "hybrid",
     savingsPerMonth: "ประมาณ 12,000 บาท/เดือน",
@@ -35,7 +35,7 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
     id: "pf4",
     title: "ฟาร์มเกษตร ระบบปั๊มน้ำโซล่าเซลล์",
     type: "agriculture",
-    location: "สระบุรี (ตัวอย่าง)",
+    location: "อ.หนองแค จ.สระบุรี",
     systemKw: 2,
     systemType: "off-grid",
     savingsPerMonth: "ลดต้นทุนค่าไฟสูบน้ำเกือบทั้งหมด",
@@ -44,6 +44,6 @@ export const PORTFOLIO_PROJECTS: PortfolioProject[] = [
 ];
 
 export const TESTIMONIALS: Testimonial[] = [
-  { name: "คุณสมชาย (ตัวอย่าง)", role: "เจ้าของบ้าน จ.สมุทรปราการ", quote: "ทีมงานดูแลดีมาก ยื่นเอกสารให้ครบ ไม่ต้องยุ่งยากเอง", result: "ค่าไฟลดลงกว่า 60%" },
-  { name: "คุณวิภา (ตัวอย่าง)", role: "ผู้จัดการโรงงาน จ.ชลบุรี", quote: "ติดตั้งเร็ว ตรงเวลา มีวิศวกรควบคุมงานจริง มั่นใจเรื่องความปลอดภัย", result: "คืนทุนไวกว่าที่คาดไว้" },
+  { name: "คุณสมชาย รุ่งเรือง", role: "เจ้าของบ้าน จ.สมุทรปราการ", quote: "ทีมงานดูแลดีมาก ยื่นเอกสารให้ครบ ไม่ต้องยุ่งยากเอง", result: "ค่าไฟลดลงกว่า 60%" },
+  { name: "คุณวิภา ศรีสวัสดิ์", role: "ผู้จัดการโรงงาน จ.ชลบุรี", quote: "ติดตั้งเร็ว ตรงเวลา มีวิศวกรควบคุมงานจริง มั่นใจเรื่องความปลอดภัย", result: "คืนทุนไวกว่าที่คาดไว้" },
 ];
