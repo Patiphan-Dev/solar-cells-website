@@ -6,7 +6,7 @@ export const BUSINESS = {
   phoneHref: "tel:0812345678",
   lineId: "@greenraysolar",
   lineHref: "https://line.me/R/ti/p/@greenraysolar",
-  email: "info@greenraysolar.co.th",
+  email: "patiphan.dev@gmail.com",
   address: "123/45 ถนนบางนา-ตราด แขวงบางนา เขตบางนา กรุงเทพมหานคร 10260",
   mapsQuery: "greenray+solar+bangna+bangkok",
   facebookHref: "https://facebook.com/greenraysolar",
